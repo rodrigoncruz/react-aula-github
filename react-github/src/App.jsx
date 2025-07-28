@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div>
-        <Teste nome="Leonardoo"/>
+        <Teste nome="Leonardoouuuuuuuu"/>
         <Teste nome="Ricardo"/>
         <Texto />
       </div>
