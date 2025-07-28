@@ -7,7 +7,7 @@ function App() {
     <>
       <div>
         <Teste nome="Leonardo"/>
-        <Teste nome="Rodrigo"/>
+        <Teste nome="Ricardo"/>
       </div>
     </>
   )
