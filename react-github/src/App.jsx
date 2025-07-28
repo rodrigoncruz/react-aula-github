@@ -1,15 +1,35 @@
-import './App.css'
+import './css/bnt.css'
 
-import Teste from './Teste'
-import Texto from './Texto'
+import Apresentacao from './components/Apresentacao'
+import Botao from './components/Botao'
+import Secao from './components/Secao'
 
 function App() {
+  const name = "Lucas Reis" 
+  const age = "26"
+  const city = "São Gonçalo"
+  const college = "Análise e Desenvolvimento de Sistemas"
+  
   return (
     <>
-      <div>
-        <Teste nome="Leonardoo"/>
-        <Teste nome="Ricardo"/>
-        <Texto />
+      <div className="container d-flex justify-content-center flex-column align-items-center">
+        <div className="row mt-3">   
+        <header>  
+        <Apresentacao className ="col-12 col-md-4 mb-4" name={name} age={age} city={city} college={college} />
+        </header>
+        </div>
+
+        <main>
+         <section className="container d-flex justify-content-center flex-column align-items-center"> 
+          <Secao className = "col-12 col-md-4 mb-4" img = "https://cdn-wcsm.alura.com.br/2025/04/capa-como-iniciar-estudos-no-front-end.jpg" title ="Front-End Senai" />
+         </section>
+        </main>
+
+        <div className="container d-flex justify-content-center flex-column align-items-center"> 
+        <nav className="col-12 col-md-4 mt-4">
+        <Botao />
+        </nav>
+        </div>
       </div>
     </>
   )
