@@ -5,17 +5,16 @@ import Botao from './components/Botao'
 import Secao from './components/Secao'
 
 function App() {
-  const name = "Lucas Reis" 
-  const age = "26"
+  const name = "Rodrigo Xavier" 
+  const age = "18"
   const city = "São Gonçalo"
-  const college = "Análise e Desenvolvimento de Sistemas"
   
   return (
     <>
       <div className="container d-flex justify-content-center flex-column align-items-center">
         <div className="row mt-3">   
         <header>  
-        <Apresentacao className ="col-12 col-md-4 mb-4" name={name} age={age} city={city} college={college} />
+        <Apresentacao className ="col-12 col-md-4 mb-4" name={name} age={age} city={city} />
         </header>
         </div>
 
