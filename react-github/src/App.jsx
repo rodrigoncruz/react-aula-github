@@ -31,6 +31,11 @@ function App() {
         </nav>
         </div>
       </div>
+      <hr></hr>
+      <footer className="container d-flex justify-content-center flex-column align-items-center">
+        <p>Desenvolvido por Lucas Reis</p>
+        <p>© 2025</p>
+      </footer>
     </>
   )
 }
